@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+   >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:background="#ADADC2"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/edit_bg" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/edit_bg" />
+
+            <com.spinlogics.icrisat.Pothana
+                android:id="@+id/animal_type"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="TYPE"
+                android:textColor="@android:color/white"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/edit_bg" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="CP"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="ME"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="CA"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="P"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/edit_bg" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/edit_bg" />
+
+            <com.spinlogics.icrisat.Pothana
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="నిర్వహణ"
+                android:textColor="@android:color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/edit_bg" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/main_dm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/main_cp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/main_me"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/main_ca"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/main_p"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/edit_bg" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/edit_bg" />
+
+            <com.spinlogics.icrisat.Pothana
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="ఉత్పత్తి"
+                android:textColor="@android:color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/edit_bg" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/prod_dm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/prod_cp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/prod_me"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/prod_ca"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/prod_p"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/edit_bg" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/edit_bg" />
+
+            <com.spinlogics.icrisat.Pothana
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="భత్యం"
+                android:textColor="@android:color/black"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/edit_bg" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/alle_dm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/alle_cp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/alle_me"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/alle_ca"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/alle_p"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DM"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/edit_bg" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/edit_bg" />
+
+            <com.spinlogics.icrisat.Pothana
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="మొత్తం"
+                android:textColor="#E23D44"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/edit_bg" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/total_dm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/total_cp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/total_me"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/total_ca"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:id="@+id/total_p"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textColor="@color/edit_bg"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/edit_bg" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/edit_bg" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_margin="20dp"
+        android:id="@+id/next_goo"
+        android:layout_marginTop="26dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Next"
+        android:textSize="28dp" />
+
+</RelativeLayout>
