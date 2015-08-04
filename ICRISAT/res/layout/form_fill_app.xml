@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/app_bg_color"  
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+        >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ 
+       android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_gound_of_layout"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/girth" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <com.spinlogics.icrisat.Pothana
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="నాడా"
+                android:textColor="@color/edit_bg"
+                android:textSize="28dp" />
+
+            <EditText
+                android:id="@+id/one_val"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/edit_bg"
+                android:textSize="28dp"
+                
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:hint="నాడా విలువ ఇవ్వు"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_gound_of_layout"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/milk" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <com.spinlogics.icrisat.Pothana
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="పాల దిగుబడి"
+                android:textColor="@color/edit_bg"
+                android:textSize="28dp" />
+
+            <EditText
+                android:id="@+id/two_val"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                
+                android:textSize="28dp"
+                
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:background="@color/edit_bg"
+                android:hint="పాల దిగుబడి ఇవ్వు"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_gound_of_layout"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/butter" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <com.spinlogics.icrisat.Pothana
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="వెన్న కొవ్వు"
+                android:textColor="@color/edit_bg"
+                android:textSize="28dp" />
+
+            <EditText
+                android:id="@+id/three_val"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/edit_bg"
+                android:gravity="center"
+                android:hint="వెన్న కొవ్వు శాతం ఇవ్వు"
+                android:textSize="28dp"
+                
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+               
+                android:inputType="numberDecimal"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_gound_of_layout"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/calving" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.spinlogics.icrisat.Pothana
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="చనుబాలివ్వడం"
+                android:textColor="@color/edit_bg"
+                android:textSize="28dp" />
+
+            <EditText
+                android:id="@+id/four_val"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textSize="28dp"
+                
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:background="@color/edit_bg"
+                android:gravity="center"
+                android:maxLength="1"
+                android:hint="చనుబాలివ్వడం ఇవ్వు"
+                android:inputType="numberDecimal"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <Button android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:id="@+id/submit"
+       android:textColor="@android:color/white"
+        android:background="#167A31"
+        android:layout_margin="20dp"
+        android:text="లెక్కించు"/>
+
+</LinearLayout>
+</RelativeLayout>
+</RelativeLayout>
